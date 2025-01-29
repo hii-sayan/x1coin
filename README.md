@@ -5,11 +5,10 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat run ./scripts/deploy.js --network localhost
 ```
 If you wish to see it in the frontend then
 
@@ -17,3 +16,6 @@ If you wish to see it in the frontend then
 cd frontend
 npm install
 npm run dev
+```
+
+Make sure to put the contract addresses in frontend/src/constants/contracts.ts
