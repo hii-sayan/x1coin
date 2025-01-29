@@ -7,7 +7,13 @@ Try running some of the following tasks:
 ```shell
 npx hardhat compile
 npx hardhat test
+```
+for working frontend
+```
 npx hardhat node
+```
+int a different terminal
+```
 npx hardhat run ./scripts/deploy.js --network localhost
 ```
 If you wish to see it in the frontend then
