@@ -24,4 +24,5 @@ npm install
 npm run dev
 ```
 
-Make sure to put the contract addresses in frontend/src/constants/contracts.ts
+Make sure to put the contract addresses in frontend/src/constants/contracts.ts comming from ./scripts/deploy.js
+
