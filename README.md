@@ -12,7 +12,7 @@ for working frontend
 ```
 npx hardhat node
 ```
-int a different terminal
+in a different terminal
 ```
 npx hardhat run ./scripts/deploy.js --network localhost
 ```
